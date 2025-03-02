@@ -19,11 +19,12 @@ This is an AI-powered chatbot that allows users to upload PDF documents and ask 
 pip install -r requirements.txt
 
 3. Run the application:
-streamlit run app.py
+ uvicorn testing1:app --host 0.0.0.0 --port 8000 --reload
+   streamlit run app.py
 
-4. Deployment with Docker
+5. Deployment with Docker
 Build the Docker image:
 docker build -t chatbot .
 
-5. Run the Docker container:
+6. Run the Docker container:
 docker run -p 8501:8501 chatbot
