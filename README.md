@@ -1,13 +1,21 @@
 # Chatbot_sample_development
 
 
-This is an AI-powered chatbot that allows users to upload PDF documents and ask questions based on the extracted content.
+This project is a chatbot application built using **FastAPI** for the backend and **Streamlit** for the frontend.  
+It allows users to upload PDFs, extract text, and ask questions about the document.
 
-## Features
-✅ Upload PDF documents  
-✅ Extract text from uploaded documents  
-✅ Ask questions and receive context-aware responses  
-✅ Deployed using Docker  
+## 🚀 Features  
+✅ Upload PDFs and extract text  
+✅ Ask questions based on document content  
+✅ Uses **DeepSeek-7B** for AI-powered answers  
+✅ Deployable with Docker  
+
+
+## 🛠️ Setup & Installation  
+
+### 1️⃣ Clone the Repository  
+git clone https://github.com/yourusername/chatbot-fastapi-streamlit.git
+cd chatbot-fastapi-streamlit
 
 ## Installation
 1. Clone the repository:
