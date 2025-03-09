@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+transformers
+torch
+llama-index
+sentence-transformers
+llama-index-embeddings-huggingface
