@@ -14,25 +14,20 @@ It allows users to upload PDFs, extract text, and ask questions about the docume
 ## 🛠️ Setup & Installation  
 
 ### 1️⃣ Clone the Repository  
-git clone https://github.com/yourusername/chatbot-fastapi-streamlit.git
-cd chatbot-fastapi-streamlit
+git@github.com:shaluashraf/Chatbot_sample_development.git
+cd Chatbot_sample_development
 
 ## Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/chatbot-project.git
-   cd chatbot-project
+   git clone https://github.com/shaluashraf/Chatbot_sample_development.git
+   cd Chatbot_sample_development
 
 2.Install dependencies:
 pip install -r requirements.txt
 
-3. Run the application:
- uvicorn testing1:app --host 0.0.0.0 --port 8000 --reload
+3. Run the application: Locally
+   uvicorn sample:app --host 0.0.0.0 --port 8000 --reload
    streamlit run app.py
 
-5. Deployment with Docker
-Build the Docker image:
-docker build -t chatbot .
-
-6. Run the Docker container:
-docker run -p 8501:8501 chatbot
+5. Docker:
+docker-compose up --build 
